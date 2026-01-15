@@ -37,16 +37,6 @@ export const projects = [
     image: toDoImg,
     link: "https://to-do-app-kappa-gules.vercel.app/"
     },
-    {
-    title: "Python Automation Engine",
-    category: "Automation / AI",
-    status: "Live",
-    desc: "A collection of headless scripts designed to scrape, clean, and visualize large agricultural datasets for market research.",
-    features: ["Multi-threaded web scraping", "Data cleaning with Pandas", "Automated CSV/Excel reporting", "Email notification triggers"],
-    tech: ["Python", "Pandas", "BeautifulSoup", "Matplotlib"],
-    image: pythonAutomationImg,
-    link: "#"
-    },
 ];
 
 
