@@ -28,7 +28,7 @@ const FAQ = () => {
   ];
 
   return (
-    <section className="bg-white py-24 px-6 font-sans">
+    <section id="faq" className="bg-white py-24 px-6 font-sans scroll-mt-24">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
         
         {/* Left Side: Content and Accordion */}

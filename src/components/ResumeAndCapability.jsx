@@ -153,10 +153,16 @@ const ResumeAndCapability = () => {
 
         {/* Download Button */}
         <div className="text-center">
-          <button className="inline-flex items-center gap-2 border-2 border-slate-900 px-10 py-4 font-bold uppercase text-xs tracking-widest hover:bg-slate-900 hover:text-white hover:cursor-pointer transition-all rounded-sm shadow-[4px_4px_0px_0px_rgba(252,211,77,1)]">
+          <a
+            href="/cv/Abdullatif-Mnyamisi-CV.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+            className="inline-flex items-center gap-2 border-2 border-slate-900 px-10 py-4 font-bold uppercase text-xs tracking-widest hover:bg-slate-900 hover:text-white hover:cursor-pointer transition-all rounded-sm shadow-[4px_4px_0px_0px_rgba(252,211,77,1)]"
+          >
             <Download size={16} />
             Download CV
-          </button>
+          </a>
         </div>
 
       </div>

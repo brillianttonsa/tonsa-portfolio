@@ -19,7 +19,7 @@ const ProjectSection = () => {
 
  
   return (
-    <section className="bg-white py-24 px-6 font-sans relative">
+    <section id="projects" className="bg-white py-24 px-6 font-sans relative scroll-mt-24">
 
       <div className="max-w-7xl mx-auto">
         

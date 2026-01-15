@@ -1,15 +1,9 @@
 import maizeImg from '../../assets/maize-inventory-ai.png';
 import toDoImg from '../../assets/to-do.png';
 import taskManagerImg from '../../assets/task-manager.png';
-import agroImg from '../../assets/agro-mobile-client.png';
-import ragImg from '../../assets/rag-doc-bot.png';
 import afyaLinkImg from '../../assets/afya-link.png';
-import pythonAutomationImg from '../../assets/python-automation.png';
-import livestockImg from '../../assets/livestock-manager.png';
 import sisalImg from '../../assets/sisal-project.png';
-import feeStudentImg from '../../assets/fee-student-system.png';
 import agriTrust from '../../assets/agritrust.png';
-import poultryImg from '../../assets/poultry.png';
 import fieldsenseImg from '../../assets/field-sense-ai.png';
 
 export const projects = [
@@ -41,17 +35,7 @@ export const projects = [
     features: ["Optimistic UI updates", "Drag-and-drop task kanban", "Multi-user real-time sync", "Advanced activity logging"],
     tech: ["React", "Node.js", "Socket.io", "MongoDB", "Express"],
     image: taskManagerImg,
-    link: "https://to-do-app-kappa-gules.vercel.app/"
-    },
-    {
-    title: "Agro-Mobile Client",
-    category: "Mobile (React Native)",
-    status: "Live",
-    desc: "The mobile interface for the Maize SaaS, optimized for field workers with offline-first data synchronization capabilities.",
-    features: ["Offline data persistence", "Background sync with REST API", "Biometric authentication", "Low-bandwidth image compression"],
-    tech: ["React Native", "Expo", "SQLite", "Redux Toolkit"],
-    image: agroImg,
-    link: "#"
+    link: "https://task-manager-app-three-mauve.vercel.app/"
     },
     {
     title: "Secure Auth To-Do",
@@ -61,7 +45,7 @@ export const projects = [
     features: ["OAuth 2.0 / Magic Link Login", "Row-Level Security (RLS)", "Automated database backups", "Dark-mode optimized UI"],
     tech: ["Next.js", "Supabase Auth", "PostgreSQL", "Framer Motion"],
     image: toDoImg,
-    link: "#"
+    link: "https://to-do-app-kappa-gules.vercel.app/"
     },
     {
     title: "Python Automation Engine",
@@ -100,17 +84,6 @@ export const futureProjects = [
       isFuture: true
     },
     {
-      title: "Fee Student System",
-      category: "EdTech Finance",
-      status: "Future Vision",
-      desc: "Digital school fee management replacing manual receipts with automated, transparent verification and parent portals.",
-      features: ["Automated Receipting", "Real-time Balance Tracking", "Parent Communication", "Financial Reporting"],
-      tech: ["React", "Express", "Supabase"],
-      image: feeStudentImg,
-      link: "#",
-      isFuture: true
-    },
-    {
         title: "FieldSense AI",
         category: "Mobile AI & LLM",
         status: "Future Vision",
@@ -121,7 +94,7 @@ export const futureProjects = [
             "AI-driven risk & anomaly detection",
             "Multi-lingual LLM processing"
         ],
-        tech: ["React Native", "Python", "LangChain", "Node.js"],
+        tech: ["Flutter", "Python", "LangChain", "Node.js"],
         image: fieldsenseImg,
         link: "#",
         isFuture: true
@@ -143,38 +116,4 @@ export const futureProjects = [
         link: "#",
         isFuture: true
     },
-    {
-    title: "Poultry Management System",
-    category: "Agro-Tech / SaaS",
-    status: "Future Vision",
-    desc: "A comprehensive hybrid platform for tracking flock health, egg production, and feed efficiency with AI-driven anomaly detection for disease prevention.",
-    features: [
-        "Batch-wise Poultry & Health Tracking",
-        "Egg Production & Mortality Analytics",
-        "AI Feed Optimization Engine",
-        "Vaccination & Maintenance Scheduling"
-    ],
-    tech: ["React / Node.js", "React Native", "Python (AI)", "Supabase"],
-    // Fixed: High-quality image of a modern poultry farm (Chickens)
-    image: poultryImg,
-    link: "#",
-    isFuture: true
-    },
-    {
-    title: "Livestock Manager",
-    category: "Agro-Tech / SaaS",
-    status: "Future Vision",
-    desc: "An enterprise-grade herd management system for cows, goats, and sheep. Features AI-driven milk production analytics and breeding cycle optimization.",
-    features: [
-        "Individual Animal ID & Health Tracking",
-        "Real-time Milk Production Analytics",
-        "Breeding & Pregnancy Lifecycle Management",
-        "AI Anomaly Detection for Disease Prevention"
-    ],
-    tech: ["React / Node.js", "React Native", "Python (AI)", "PostgreSQL"],
-    // Direct high-quality image of healthy cattle in a professional farm setting
-    image: livestockImg,
-    link: "#",
-    isFuture: true
-    }
 ];

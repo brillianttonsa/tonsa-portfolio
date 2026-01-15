@@ -8,7 +8,7 @@ const About = () => {
   ];
 
   return (
-    <section className="bg-white py-14 px-6 font-sans">
+    <section id="about" className="bg-white py-14 px-6 font-sans scroll-mt-24">
       <div className="max-w-6xl mx-auto">
         
         {/* Header Section */}
