@@ -18,16 +18,6 @@ export const projects = [
         link: "#"
     },
     {
-    title: "RAG Documentation Bot",
-    category: "LLM Engineering",
-    status: "Beta Testing",
-    desc: "A specialized AI agent that processes private PDF documentation to provide context-aware answers using vector embeddings.",
-    features: ["PDF text extraction & chunking", "Vector similarity search", "Context-injected LLM prompting", "Conversation history memory"],
-    tech: ["LangChain", "OpenAI API", "ChromaDB", "Python", "Streamlit"],
-    image: ragImg,
-    link: "#"
-    },
-    {
     title: "Task Management Tool",
     category: "Full-Stack Web",
     status: "Live",
