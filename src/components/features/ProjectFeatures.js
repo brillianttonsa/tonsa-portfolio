@@ -4,8 +4,19 @@ import taskManagerImg from '../../assets/task-manager.png';
 import afyaLinkImg from '../../assets/afya-link.png';
 import sisalImg from '../../assets/sisal-project.png';
 import smartAdminImg from '../../assets/smart-admin.png';
+import portfolioImg from '../../assets/portfolio.png';
 
 export const projects = [
+    {
+        title: "Tonsa Portfolio",
+        category: "Frontend Web",
+        status: "Live",
+        desc: "A modern personal portfolio showcasing skills, resume, and project deployments. Built with a clean component architecture, responsive design, and interactive project modals.",
+        features: ["Hero with typing effect & scroll indicator", "Resume section with skill charts (Recharts) & PDF export", "Project showcase with modal details & future vision section", "Responsive header with mobile menu & backdrop blur", "FAQ, Contact, and polished Tailwind styling"],
+        tech: ["React 19", "Vite", "Tailwind CSS v4", "Recharts", "jsPDF", "lucide-react"],
+        image: portfolioImg,
+        link: "#"
+    },
     {
         title: "Maize Inventory AI",
         category: "Full-Stack & AI",
