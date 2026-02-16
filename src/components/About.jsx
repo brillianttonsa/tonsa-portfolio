@@ -3,7 +3,7 @@ const About = () => {
   const details = [
     { label: "Name:", value: "Abdullatif Mnyamisi" },
     { label: "Email:", value: "abdullatifmyamis@gmail.com", isLink: true },
-    { label: "Role:", value: "AI Engineer & Full-Stack Developer" },
+    { label: "Role:", value: "Frontend & Backend Engineer — Aspiring AI Engineer" },
     { label: "Status:", value: "Finalist CS Student" },
   ];
 
@@ -21,23 +21,29 @@ const About = () => {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-16 items-start">
+        <div className="items-start">
           
           {/* Bio Column */}
-          <div className="lg:col-span-2">
+          <div className="">
             <h3 className="text-3xl font-black text-slate-900 mb-6 uppercase tracking-tighter">
-              The <span className="bg-[#fde047] px-2">Hybrid</span> Developer
-            </h3>
-            <p className="text-slate-600 text-lg leading-relaxed mb-6">
-              I am a **Computer Science Finalist** with a deep passion for building software that thinks. 
-              While my foundation is academic, my execution is practical—honed through rigorous 
-              training in **Full-Stack Web Development** and **LLM Engineering**.
-            </p>
-            <p className="text-slate-600 text-lg leading-relaxed mb-8">
-              Currently, I am architecting an **AI-enabled Maize Inventory System**, a SaaS platform 
-              designed to solve real-world agricultural waste through predictive analytics. I don't 
-              just build apps; I build systems that automate complexity and provide actionable insights.
-            </p>
+                The <span className="bg-[#fde047] px-2">Hybrid</span> Developer
+              </h3>
+              <p className="text-slate-600 text-lg leading-relaxed mb-6">
+                I build fast, component-driven web apps with React—clean, reusable UI and
+                pragmatic frontend architecture.
+              </p>
+              <p className="text-slate-600 text-lg leading-relaxed mb-6">
+                I also craft Node.js/Express backends and APIs, giving me a full-stack view that
+                keeps frontend and server aligned.
+              </p>
+              <p className="text-slate-600 text-lg leading-relaxed mb-6">
+                I build good maintainable code with testing, CI/CD pipelines, and Tailwind for
+                polished user experiences.
+              </p>
+              <p className="text-slate-600 text-lg leading-relaxed mb-8">
+                Currently exploring AI integrations to create smarter, more automated user
+                experiences.
+              </p>
 
             {/* Quick Info Grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-10 gap-x-4 border-t-2 border-slate-50 pt-10">
@@ -50,30 +56,6 @@ const About = () => {
                 </div>
               ))}
             </div>
-          </div>
-
-          {/* Impact Column - Showing your actual project count */}
-          <div className="bg-slate-50 rounded-3xl p-10 flex flex-col items-center justify-center text-center relative overflow-hidden border border-slate-100">
-             {/* Subtle Decorative Icon */}
-            <div className="relative z-10">
-              <span className="text-[120px] font-black text-slate-900 leading-none tracking-tighter">
-                04
-              </span>
-              <span className="text-[#fde047] text-6xl font-black absolute -top-4 -right-8">+</span>
-            </div>
-            
-            <p className="text-xl font-black text-slate-800 mt-4 uppercase tracking-tighter leading-none">
-              Production-Ready <br /> <span className="text-slate-400">Applications</span>
-            </p>
-            
-            <div className="w-12 h-1 bg-[#fde047] my-6"></div>
-            
-            <p className="text-slate-500 text-sm font-medium italic">
-              "From Task Management to <br /> AI Agro-SaaS."
-            </p>
-
-            {/* Background Shape */}
-            <div className="absolute -bottom-10 -right-10 w-32 h-32 bg-[#fde047]/20 rounded-full blur-3xl"></div>
           </div>
 
         </div>

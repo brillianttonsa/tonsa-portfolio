@@ -3,34 +3,34 @@ import { Layout, Smartphone, BrainCircuit, Database, LineChart, Cpu } from 'luci
 const SkillsSection = () => {
   const services = [
     {
-      title: "AI & LLM Engineering",
-      icon: <BrainCircuit size={42} />,
-      desc: "Architecting RAG systems and LLM pipelines. I turn raw data into intelligent responses using Python and modern AI orchestration."
-    },
-    {
-      title: "Full-Stack SaaS",
-      icon: <Database size={42} />,
-      desc: "Building scalable platforms like my Maize Inventory System. Expertise in Supabase, SQL, React, Node.js, and complex database schemas."
-    },
-    {
-      title: "Mobile App Dev",
-      icon: <Smartphone size={42} />,
-      desc: "Cross-platform development with React Native and Expo. Focused on high-performance UIs and seamless mobile-AI integration."
-    },
-    {
-      title: "Predictive Analytics",
-      icon: <LineChart size={42} />,
-      desc: "Using Scikit-learn to forecast market trends and stock demand, a core feature I'm implementing in my agro-business solutions."
-    },
-    {
       title: "Frontend Engineering",
       icon: <Layout size={42} />,
-      desc: "Building production-ready interfaces with Next.js, React, Tailwindcss and TypeScript, following the professional standards from my Dr. Angela Yu training."
+      desc: "Building dynamic, component-based applications with React and Next.js. Clean, reusable code with responsive UI design using Tailwind CSS."
     },
     {
-      title: "System Architecture",
+      title: "Backend Development",
+      icon: <Database size={42} />,
+      desc: "Architecting scalable APIs with Node.js and Express. Database design, optimization, and secure server-side logic with PostgreSQL."
+    },
+    {
+      title: "Clean Code & Testing",
       icon: <Cpu size={42} />,
-      desc: "As a CS Finalist, I prioritize clean code and scalable architecture—ensuring role-based access and secure API data flow."
+      desc: "Writing maintainable code with automated testing frameworks. Implementing best practices for code quality, documentation, and long-term maintainability."
+    },
+    {
+      title: "CI/CD & Deployment",
+      icon: <BrainCircuit size={42} />,
+      desc: "Building automated pipelines for continuous integration and deployment. Understanding DevOps basics and application lifecycle management."
+    },
+    {
+      title: "Full-Stack Integration",
+      icon: <LineChart size={42} />,
+      desc: "Designing cohesive solutions where frontend and backend seamlessly work together. API contracts, error handling, and performance optimization."
+    },
+    {
+      title: "AI Exploration",
+      icon: <Smartphone size={42} />,
+      desc: "Continuously learning AI/ML concepts and exploring how to integrate AI-powered features into modern web applications."
     }
   ];
 
@@ -43,12 +43,12 @@ const SkillsSection = () => {
         </span>
         
         <h2 className="text-4xl md:text-5xl font-black text-slate-900 mt-8 mb-8">
-          Full-Stack Logic Meets <span className="text-[#facc15]">AI Intelligence</span>
+          Full-Stack Engineering with <span className="text-[#facc15]">Clean Code</span>
         </h2>
 
         <p className="max-w-2xl mx-auto text-slate-500 text-lg leading-relaxed mb-24">
-          I bridge the gap between traditional software engineering and the new era of 
-          Artificial Intelligence, building systems that are autonomous, scalable, and data-driven.
+          I combine frontend and backend expertise to build scalable, maintainable solutions. 
+          Strong focus on testing, CI/CD, and exploring how AI can enhance modern web applications.
         </p>
 
         {/* Grid Container */}

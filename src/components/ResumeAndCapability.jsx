@@ -24,51 +24,51 @@ const ResumeAndCapability = () => {
 
   const projectsAsExperience = [
     { 
-      role: "Lead Full-Stack Developer", 
+      role: "Full-Stack Engineer", 
       company: "Maize Inventory SaaS System", 
       years: "2025 - Current",
-      desc: "Designing an AI-enabled platform for agro-businesses to track stock, production (flour/feed), and sales. Integrating AI for demand forecasting."
+      desc: "Building a production-grade platform with React frontend, Node.js/Express backend, and SQL databases. Focused on maintainable architecture, testing, and CI/CD pipelines."
     },
     { 
-      role: "AI & LLM Researcher", 
-      company: "Specialized Engineering Labs", 
-      years: "2025 - Current",
-      desc: "Building RAG-based systems and 2+ AI experimental projects focusing on intelligent data retrieval and task automation."
+      role: "Frontend Engineer", 
+      company: "Dashboard & UI Projects", 
+      years: "2024 - 2025",
+      desc: "Designing responsive frontends with React and Tailwind CSS. Building reusable components, integrating REST APIs, and implementing automated testing."
     },
     { 
-      role: "Software Engineer", 
-      company: "Productivity & Mobile Suite", 
-      years: "2025",
-      desc: "Developed a Task Management System and To-Do app using React/Node.js. Architected 2+ mobile application mockups for real-world utility."
+      role: "Backend Engineer", 
+      company: "API & Database Systems", 
+      years: "2024 - 2025",
+      desc: "Architecting RESTful APIs and database schemas with Node.js and PostgreSQL. Learning DevOps basics, automation, and deployment practices."
     },
   ];
 
   const skillCategories = [
     {
-      title: "AI & LLM Engineering",
-      icon: <Cpu size={20} className="text-slate-900" />,
-      skills: [
-        { name: "RAG Architecture / Prompting", percentage: 50 },
-        { name: "Python / Scikit-learn", percentage: 92 },
-        { name: "Vector DBs & LLM Integration", percentage: 20 }
-      ]
-    },
-    {
-      title: "Full-Stack Web",
+      title: "Frontend Development",
       icon: <Globe size={20} className="text-slate-900" />,
       skills: [
         { name: "React / Next.js / Tailwind", percentage: 95 },
-        { name: "Node.js / Express / SQL", percentage: 90 },
-        { name: "Supabase / REST APIs", percentage: 85 }
+        { name: "Responsive UI & UX", percentage: 70 },
+        { name: "REST APIs & Testing", percentage: 85 }
       ]
     },
     {
-      title: "Mobile Development",
+      title: "Backend Engineering",
+      icon: <Cpu size={20} className="text-slate-900" />,
+      skills: [
+        { name: "Node.js / Express / SQL", percentage: 90 },
+        { name: "Database Design & Optimization", percentage: 65 },
+        { name: "CI/CD & DevOps Basics", percentage: 60 }
+      ]
+    },
+    {
+      title: "AI & Modern Tech",
       icon: <Smartphone size={20} className="text-slate-900" />,
       skills: [
-        { name: "React Native / Expo", percentage: 80 },
-        { name: "Mobile UI / UX", percentage: 60 },
-        { name: "App Prototyping", percentage: 80 }
+        { name: "Python & AI Fundamentals", percentage: 80 },
+        { name: "Learning AI/ML Concepts", percentage: 50 },
+        { name: "System Architecture", percentage: 75 }
       ]
     }
   ];

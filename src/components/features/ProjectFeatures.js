@@ -3,8 +3,7 @@ import toDoImg from '../../assets/to-do.png';
 import taskManagerImg from '../../assets/task-manager.png';
 import afyaLinkImg from '../../assets/afya-link.png';
 import sisalImg from '../../assets/sisal-project.png';
-import agriTrust from '../../assets/agritrust.png';
-import fieldsenseImg from '../../assets/field-sense-ai.png';
+import smartAdminImg from '../../assets/smart-admin.png';
 
 export const projects = [
     {
@@ -41,44 +40,65 @@ export const projects = [
 
 
 export const futureProjects = [
-  {
-      title: "AgriTrust Platform",
-      category: "Agriculture Fintech",
-      status: "Future Vision",
-      desc: "A trust-based aggregation model using Islamic Finance (Salam) to fund and supervise farmers for consistent quality bulk supply.",
-      features: ["Salam Contract Engine", "Input Allocation Tracking", "Trust-Based Scoring", "Bulk Buyer Portal"],
-      tech: ["Blockchain", "Node.js", "Islamic Finance Logic"],
-      image: agriTrust,
-      link: "#",
-      isFuture: true
-    },
+  
     {
-      title: "The Sisal Project",
-      category: "Supply Chain ERP",
+      title: "Sisal Farm Management System (SFMS)",
+      category: "Full-Stack Web App",
       status: "Future Vision",
-      desc: "ERP system for the sisal industry managing the lifecycle from plantation mapping to fiber export documentation.",
-      features: ["Plantation Mapping", "Harvest Scheduling", "Quality Grading", "Export Tracking"],
-      tech: ["React Native", "PostgreSQL", "Cloud Architecture"],
+      desc: "A lightweight farm management platform designed to help sisal farmers track daily operations, maintain historical records, manage expenses, assign tasks, and plan future farm activities — all in one place. Reduces operational chaos, improves record-keeping, and increases efficiency at every stage of sisal farming.",
+      features: [
+        "Farm Visit Log & Observations",
+        "Expense Tracking & Categorization",
+        "Task & Worker Management",
+        "Future Planning & To-Do Lists",
+        "Dashboard with Quick Overview",
+        "Searchable History & Reports"
+      ],
+      tech: ["React", "Vite", "Node.js", "Express", "PostgreSQL", "Vitest", "GitHub Actions"],
       image: sisalImg,
       link: "#",
-      isFuture: true
-    },
-    {
-        title: "FieldSense AI",
-        category: "Mobile AI & LLM",
-        status: "Future Vision",
-        desc: "A mobile-first 'AI Field Supervisor' that converts natural voice reports from workers into structured business intelligence using LLM function calling.",
-        features: [
-            "Voice-to-Structured-Data Engine",
-            "Offline-first reporting architecture",
-            "AI-driven risk & anomaly detection",
-            "Multi-lingual LLM processing"
+      isFuture: true,
+      details: {
+        keyFeatures: [
+          {
+            name: "Farm Visit Log",
+            desc: "Record every farm visit with date, section/block, observations, photos, and actions taken. Track follow-ups and maintain a searchable history of all visits."
+          },
+          {
+            name: "Expense Tracking",
+            desc: "Track daily and monthly costs for labor, tools, transport, fertilizers, and machinery. Categorize expenses, attach notes, and generate simple reports to analyze farm spending."
+          },
+          {
+            name: "Task & Worker Management",
+            desc: "Assign tasks to workers with deadlines and status (Pending / Completed). Keep notes for each task and track worker performance."
+          },
+          {
+            name: "Future Planning & To-Do Lists",
+            desc: "Plan upcoming farm activities such as planting, land clearing, or irrigation setup. Maintain a to-do list for long-term farm operations and strategy."
+          },
+          {
+            name: "Dashboard",
+            desc: "Quick overview of pending tasks, recent visits, and total expenses. Visual summaries to make decision-making faster and easier."
+          }
         ],
-        tech: ["Flutter", "Python", "LangChain", "Node.js"],
-        image: fieldsenseImg,
-        link: "#",
-        isFuture: true
+        technical: {
+          frontend: "React + Vite (component-based pages for Dashboard, Visits, Expenses, Tasks)",
+          backend: "Node.js + Express + PostgreSQL (relational DB for structured farm data)",
+          database: ["farm_blocks — identifies sections of your farm", "visit_logs — tracks observations and actions", "expenses — records all farm-related spending", "tasks — manages worker tasks and statuses", "plans — stores strategic future plans"],
+          optimization: "Indexing on key columns like date and status for faster queries",
+          testing: "Vitest + React Testing Library for frontend component testing",
+          cicd: "GitHub Actions to run tests and ensure consistent deployment"
+        },
+        valueProposition: [
+          "Reduces operational confusion for small- to medium-scale sisal farmers",
+          "Provides an organized historical record of all farm activities",
+          "Helps manage expenses and optimize resource allocation",
+          "Improves productivity by tracking worker tasks and progress",
+          "Scalable: can later include yield prediction, weather tracking, or multi-farm management"
+        ]
+      }
     },
+    
     {
         title: "Afya-Link",
         category: "HealthTech / Hybrid",
@@ -96,4 +116,79 @@ export const futureProjects = [
         link: "#",
         isFuture: true
     },
+    {
+    title: "Smart Admin Panel / Student Fee Management",
+    category: "Full-Stack Web App",
+    status: "Future Vision",
+    desc: "A React single-page admin/dashboard application with public pages and protected dashboard features. Provides authenticated user flows, role-based protected routes, dashboards with charts and reports, form validation, notifications, and site-wide theming — all designed to manage students, fees, and administrative workflows efficiently.",
+    features: [
+        "Public landing pages and information sections",
+        "Protected dashboard for authenticated users",
+        "Role-based access control",
+        "Analytics & reports with charts",
+        "Student/worker profile and settings management",
+        "Notifications and site-wide theming",
+        "Form handling with validation schemas"
+    ],
+    tech: [
+        "React (v19), Vite, ESLint",
+        "react-router-dom",
+        "Zustand (state management)",
+        "react-hook-form + Zod (forms & validation)",
+        "Axios + date-fns (data handling)",
+        "Tailwind CSS, clsx, lucide-react (UI & icons)",
+        "Recharts (charts)",
+        "Sonner (notifications)",
+        "Vitest + Testing Library (testing)",
+        "@vitejs/plugin-react, PostCSS, Autoprefixer (build/dev)"
+    ],
+    image: smartAdminImg, // replace with your image variable
+    link: "#",
+    isFuture: true,
+    details: {
+        keyFeatures: [
+            {
+                name: "Authentication & Role-based Access",
+                desc: "Secure login/register flows with protected routes for different user roles."
+            },
+            {
+                name: "Dashboard & Analytics",
+                desc: "Displays charts and reports for fees, payments, and student/workflow management."
+            },
+            {
+                name: "Form Handling & Validation",
+                desc: "Forms handled using react-hook-form with Zod schemas for proper validation."
+            },
+            {
+                name: "Notifications & Theming",
+                desc: "Site-wide notifications for users and configurable theming across pages."
+            },
+            {
+                name: "State Management & API Data",
+                desc: "Uses Zustand for lightweight global/local state management and Axios for data fetching."
+            }
+        ],
+        technical: {
+            frontend: "React + Vite (component-based pages for Dashboard, Analytics, Profiles, Forms)",
+            backend: "Node.js + Express + PostgreSQL (relational DB for students, fees, and workflows)",
+            database: [
+                "students — stores student profiles and class info",
+                "fees — stores payment details, dues, and receipts",
+                "users — stores admin/accountant/staff login and roles",
+                "notifications — stores alerts and messages",
+                "forms — stores submitted forms for validation and reporting"
+            ],
+            optimization: "Indexing key columns like student_id, role, and payment status for faster queries",
+            testing: "Vitest + Testing Library for frontend component/unit testing",
+            cicd: "GitHub Actions to run tests and ensure consistent deployment"
+        },
+        valueProposition: [
+            "Automates student fee management and reporting",
+            "Reduces manual errors and administrative overhead",
+            "Provides clear dashboards for decision-making",
+            "Ensures secure role-based access to sensitive data",
+            "Scalable: can add more modules like attendance, grades, or notifications"
+        ]
+    }
+}
 ];

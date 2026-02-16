@@ -43,11 +43,10 @@ const Contact = () => {
               Connection
             </span>
             <h2 className="text-5xl md:text-6xl font-black text-slate-900 mb-8 leading-tight">
-              Let's build <br />something <span className="underline decoration-slate-900/30">smart.</span>
+              Let's build <br />something <span className="underline decoration-slate-900/30">great.</span>
             </h2>
             <p className="text-slate-800 text-lg leading-relaxed max-w-md mb-12">
-              I'm currently open to time roles and high-impact AI projects. 
-              If you're looking for a developer who thinks in systems and ships in code, let's talk.
+              I'm open to discussing frontend/backend projects, SaaS development, and opportunities to explore AI integrations. If you value clean code and maintainable solutions, let's connect.
             </p>
 
             <div className="space-y-8">

@@ -6,27 +6,25 @@ const FAQ = () => {
 
  const faqData = [
     {
-      question: "How do you deliver value without 'formal' office experience?",
-      answer: "I build systems for real-world impact. From architecting AI-driven livestock monitoring to developing hybrid HealthTech portals, my experience is measured by the complexity of my deployments. I focus on solving 'last-mile' problems where digital literacy and infrastructure are limited."
+      question: "What's your approach to frontend development?",
+      answer: "I build component-based UIs with React, focusing on reusability, accessibility, and performance. I use Tailwind CSS for styling consistency and prioritize responsive design. Every component is testable and maintainable."
     },
     {
-      question: "What is your primary AI/Engineering stack?",
-      answer: "I specialize in the 'Applied AI Stack': Python & LangChain for LLM orchestration, React/Angular for cross-platform interfaces, and Supabase/PostgreSQL for secure, scalable data management. I build tools that turn unstructured voice/text into actionable business JSON."
+      question: "How do you structure backend APIs?",
+      answer: "I design RESTful APIs using Node.js and Express, with clear separation of concerns. I follow best practices for error handling, authentication, and database optimization. I've improved query performance in SQL databases using indexing."
     },
     {
-      question: "Can you build for low-connectivity or rural areas?",
-      answer: "Yes. My projects like FieldSense AI and the Poultry Management System are designed with an 'Offline-First' philosophy. I understand how to handle local data synchronization so that a lack of internet never stops a farm or hospital from operating."
+      question: "Do you write tests?",
+      answer: "Absolutely. I write unit tests and integration tests to ensure code reliability. Testing is part of my development workflow, not an afterthought. Well-tested code is maintainable code."
     },
     {
-      question: "How do you ensure AI outputs are accurate and safe?",
-      answer: "I implement strict 'Function Calling' and validation layers. For projects like Afya-Link or AgriTrust, I use structured output parsing and hallucination controls to ensure the LLM acts as a reliable data processor, not just a creative chatbot."
+      question: "What about CI/CD and deployment?",
+      answer: "I understand the basics of continuous integration and deployment pipelines. I can work with GitHub Actions, deploy to cloud platforms, and ensure automated testing runs on every commit."
     },
     {
-      question: "Why hire you for a complex enterprise project?",
-      answer: "Because I don't just build features; I bridge ecosystems. I can manage the flow of data between a field worker's mobile app and a manager's web dashboard, all while integrating an AI layer that automates the analysis for both."
-    }
-  ];
-
+      question: "How are you exploring AI?",
+      answer: "I'm actively learning AI/ML concepts and exploring how to integrate AI-powered features into web applications. I work with Python fundamentals and study how to leverage AI responsibly in modern systems."
+    }];
   return (
     <section id="faq" className="bg-white py-24 px-6 font-sans scroll-mt-24">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">

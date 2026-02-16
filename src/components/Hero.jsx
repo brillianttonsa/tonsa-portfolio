@@ -8,12 +8,12 @@ const Hero = () => {
 
   // Memoizing roles to prevent unnecessary re-renders
   const roles = useMemo(() => [
-    "AI Systems Engineer",
-    "Full Stack Developer",
-    "Mobile App Developer",
-    "LLM Specialist",
+    "Frontend Engineer",
+    "Backend Engineer",
+    "Full-Stack Developer",
     "SaaS Builder",
-    "problem Solver"
+    "AI Explorer",
+    "Problem Solver"
   ], []);
 
   useEffect(() => {
@@ -64,7 +64,7 @@ const Hero = () => {
       {/* Intro Text */}
       <div className="relative z-10 space-y-6">
         <h2 className="text-[#fde047] text-xs md:text-sm font-black uppercase tracking-[0.5em]">
-          Computer Science Finalist, AI & SW Engineer
+          Frontend & Backend Engineer | Aspiring AI Engineer
         </h2>
         
         <div className="min-h-[160px] md:min-h-[220px] flex flex-col justify-start">
@@ -78,7 +78,7 @@ const Hero = () => {
         </div>
 
         <p className="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto font-medium leading-relaxed">
-          Building <span className="text-white underline decoration-[#fde047] decoration-4 underline-offset-4">intelligent SaaS solutions</span> and high-performance mobile apps with Python, React, and Node.js.
+          Crafting <span className="text-white underline decoration-[#fde047] decoration-4 underline-offset-4">clean, maintainable code</span> and scalable web solutions with React, Node.js, and modern tooling.
         </p>
       </div>
 
