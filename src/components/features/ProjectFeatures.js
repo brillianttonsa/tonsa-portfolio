@@ -7,14 +7,14 @@ import smartAdminImg from '../../assets/smart-admin.png';
 
 export const projects = [
     {
-        title: "Maize Inventory AI (SaaS)",
+        title: "Maize Inventory AI",
         category: "Full-Stack & AI",
         status: "In Development",
         desc: "A predictive analytics platform for agro-dealers to manage grain stock and anticipate market shortages using machine learning.",
         features: ["Demand forecasting via Scikit-learn", "Real-time stock depletion tracking", "Supplier lead-time analytics", "Automated reorder point alerts"],
         tech: ["React", "Python", "Scikit-learn", "Supabase", "Tailwind"],
         image: maizeImg,
-        link: "#"
+        link: "https://maize-inventory-system.vercel.app/"
     },
     {
     title: "Task Management Tool",
@@ -117,10 +117,10 @@ export const futureProjects = [
         isFuture: true
     },
     {
-    title: "Smart Admin Panel / Student Fee Management",
+    title: "Smart Admin Panel",
     category: "Full-Stack Web App",
     status: "Future Vision",
-    desc: "A React single-page admin/dashboard application with public pages and protected dashboard features. Provides authenticated user flows, role-based protected routes, dashboards with charts and reports, form validation, notifications, and site-wide theming — all designed to manage students, fees, and administrative workflows efficiently.",
+    desc: "A React multi-page admin/dashboard application with public pages and protected dashboard features. Provides authenticated user flows, role-based protected routes, dashboards with charts and reports, form validation, notifications, and site-wide theming — all designed to manage students, fees, and administrative workflows efficiently.",
     features: [
         "Public landing pages and information sections",
         "Protected dashboard for authenticated users",

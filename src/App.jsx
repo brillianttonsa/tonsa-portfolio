@@ -1,14 +1,12 @@
 import Header from "./components/Header"
 import Hero from "./components/Hero"
 import About from "./components/About"
-import SkillsSection from "./components/SkillsSectioin"
-import ResumeAndCapability from "./components/ResumeAndCapability"
-import FAQ from "./components/Faq"
+import SkillsSection from "./components/SkillsSection"
+import ResumeAndCapability from "./components/Resume"
+import ProjectSection from "./components/Projects"
+import FAQ from "./components/FAQ"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
-
-
-import ProjectSection from "./components/Projects"
 
 function App() {
   return (
