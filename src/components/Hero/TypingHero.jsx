@@ -5,7 +5,6 @@ const roles = [
   'Backend Engineer',
   'Full-Stack Developer',
   'AI Explorer',
-  'Problem Solver',
 ];
 
 const TypingHero = () => {
